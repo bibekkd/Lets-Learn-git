@@ -1,0 +1,1 @@
+print("EveryThing will be easy if you are consistent.")
