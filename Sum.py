@@ -1,6 +1,8 @@
-x = int(input("Enter a number:"))
-sum = 0
+x = int(input("Enter a number :"))
+fac = 1
 for i in range(x+1):
-    sum += i
+    if i == 0:
+        continue
+    fac *= i
 
-print(f"Sum till {x} is {sum}.")
+print(f"Factorial of {x} is {fac}.")
